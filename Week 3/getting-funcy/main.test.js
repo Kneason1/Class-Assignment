@@ -1,43 +1,39 @@
 /**********************************
  * YOUR CODE GOES HERE THIS TIME! *
  **********************************/
-function isItLong (i){
-  if (i.length > 20){
-   console.log("That's a long string!")
-  }
- }
- isItLong("This should be longer than 20 letters")
- function isItMedium (i) {
-   if (i.length >= 10 && i.length <= 20) {
-     console.log("That's a regular sized string!")
-   }
- }
- isItMedium("This is a string")
- function isItShort (i)  {
-   if (i.length < 10) {
-     console.log("That's a small string!")
-   }
-   isItShort("That's a small string!")
- }
- function howLongIsMyString (i)  {
-   if (i.length > 20){
-     console.log("That's a long string!")
-   }else if (i.length >= 10 && i.length <= 20) {
-     console.log("That's a long string!")
-   }else if (i.length < 10) {
-     console.log("That's a small string!")
-   }
-   }
-   function personsHeight (i) {
-     if (i == "Shaq"){
-     console.log(85)
-     }else if (i == "Zooey"){
-     console.log(65)
-     } else{
-     console.log("I don't know everyone's height")
-     }
-   }
+  //  \\Variables\\ 
+x = 3
+y = 10
+z = 4
+greeting = "Hello"
+firstName = "Khadijha"
+callStatus = "ringing"
 
+
+
+//FUNCTIONS//
+function double() {
+  x=x*2
+}
+
+function triple() {
+y=y+3
+}
+
+function square() {
+  z=z**4
+}
+
+function beNice(){
+  greeting + firstName
+}
+console.log(beNice)
+function changeName(){
+firstName = Danger
+}
+function hangUp() {
+  callStatus = "call ended"
+}
 
 /*********************************************************************************************************************
 
